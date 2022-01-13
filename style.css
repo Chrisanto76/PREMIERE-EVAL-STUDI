@@ -1,0 +1,27 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  color: black;
+}
+
+/* POLICES DES TITRES */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* POSITIONNEMENT DU TITRE PRINCIPALE DE L'INDEX */
+
+#cso {
+    position: relative;
+    text-align: center;
+    color: lightgrey;
+    top: 70%;
+}
+
