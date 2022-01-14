@@ -40,6 +40,8 @@
   </head>
   <body>
     <main class="main-container">
+
+        <!-------------navbar--------------->
         <nav
             class="hdp navbar navbar-expand-lg navbar-light text-dark fs-4 sticky-top"
         >
@@ -118,9 +120,103 @@
             </div>
         </nav>
 
+        <!------------------header---------------->
+        <header>
+            <nav class="ms-5 mt-2" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a class="text-decoration-none text-dark" href="index.html">Bienvenue</a></li>
+                <li class="breadcrumb-item"><a class="text-decoration-none text-dark" href="événements.html">événements</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contacts</li>
+                </ol>
+            </nav>
+            <div class="contact-banner">
+                <div
+                    class="stage"
+                    style="
+                    background-image: url('images/michael-bourgault-LP3HD-bC39g-unsplash\ \(1\).jpg');
+                    height: 400px;
+                    background-size: cover;
+                    background-position: center;
+                    padding-bottom: 50px;
+                    "
+                >
+                    <h1
+                    id="cso"
+                    class="display-6 ms-lg-5 text-sm-center text-lg-start text-light"
+                    >
+                    LES ÉCURIES SOLIDAIRES<br />formulaire de contact
+                    </h1>
+                   
+                </div>
+            </div>
+        </header>
+
+        <!--------------formulaire de contact------------->
+
+        <section class="touch">
+            <form class="row g-3 mt-2 p-5">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" />
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Mot de passe</label>
+                  <input type="password" class="form-control" id="inputPassword4" />
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Adresse</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress"
+                    placeholder="Mon adresse"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Complément</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress2"
+                    placeholder="Appartement, Batiment, Escalier"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Localité</label>
+                  <input type="text" class="form-control" id="inputCity" />
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choisissez un pays</option>
+                    <option>France</option>
+                    <option>États-unis</option>
+                    <option>Italie</option>
+                    <option>Espagne</option>
+                    <option>Portugal</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Code postal</label>
+                  <input type="text" class="form-control" id="inputZip" />
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck" />
+                    <label class="form-check-label" for="gridCheck"> Se souvenir de moi</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <a class="btn btn-primary" href="index.html" role="button">c'est parti!</a>
+                </div>
+              </form>
 
 
-        
+        </section>
+
+
+
+
         <!----------footer------------>
         <footer class="bdp mt-5">
             <div class="container-fluid mt-3">
