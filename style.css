@@ -6,6 +6,7 @@
   line-height: 25px;
  
 }
+/* couleur du BG */
 
 body {
   /* background-color: #F5EEE6;   */
@@ -35,7 +36,7 @@ h5 {
   top: 70%;
 }
 
-/* création des espacements des paragraphes */
+/* création de la justification du texte */
 
 .text-justify {
   text-align: justify;
@@ -45,4 +46,17 @@ h5 {
 
 .card {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* header et footer */
+
+.hdp {
+    height: auto;
+    width: 100%;
+    background-color: #F0F0F0;
+}
+
+.bdp {
+    border-top: 1px solid black;
+    background-color: #F0F0F0;
 }
