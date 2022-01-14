@@ -327,66 +327,71 @@
                </div>
             </article>
         </section>
-
+        <section>
+            <div class="container-fluid w-100">
+                <div class="d-flex justify-content-center mt-3">
+                    <button
+                      type="button"
+                      class="btn btn-outline border-secondary text-secondary mt-3 rounded"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      <strong> envoyer mon dossier d'inscription.</strong>
+                    </button>
+              
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="exampleModal"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Notre adresse</h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <img
+                              src="images/silhouette-g05d87d714_640.png"
+                              height="80px"
+                              width="80px"
+                              alt="logo-association"
+                            />
+                            <h4 class="display-6">Les écuries solidaires</h4>
+                            <p>
+                              Les bureaux de l'association se trouvent à Paris, au 32 rue
+                              Poliveau, paris 5ème
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-bs-dismiss="modal"
+                            >
+                              Fermer
+                            </button>
+                              <a class="text-light" href="index.html">retour a l'acceuil</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            
+        </section>
         <!------------boutton vers modal-------->
 
-        <div class="d-flex justify-content-center mt-3">
-            <button
-              type="button"
-              class="btn btn-primary border-secondary mt-3 rounded"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              envoyer mon dossier d'inscription.
-            </button>
-      
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="exampleModal"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Notre adresse</h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">
-                    <img
-                      src="images/silhouette-g05d87d714_640.png"
-                      height="80px"
-                      width="80px"
-                      alt="logo-association"
-                    />
-                    <h4 class="display-6">Les écuries solidaires</h4>
-                    <p>
-                      Les bureaux de l'association se trouvent à Paris, au 32 rue
-                      Poliveau, paris 5ème
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Fermer
-                    </button>
-                      <a class="text-light" href="index.html">retour a l'acceuil</a>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        
 
         <!----------footer------------>
         <footer class="bdp mt-5">
@@ -402,10 +407,6 @@
                 
             </div>
         </footer>
-
-
-
-
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
