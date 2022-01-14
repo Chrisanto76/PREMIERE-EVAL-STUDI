@@ -11,9 +11,12 @@
     />
     <!---------STYLE LINK---------->
     <!-- CSS only -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,11 +26,398 @@
     <link rel="stylesheet" href="style.css" />
     <meta
       name="description"
-      content="Découvrez notre association équestre solidaire pour la jeunesse des quartiers.
-        Nous mettons en place des voyages à prix réduits tous les étés"
+      content="Les écuries solidaires, les événements passés, présents, et à venir.
+      Découvrez le projet de voyage dans le Montana ce mois de juillet."
     />
     <meta name="subject" content="association solidaire" />
+    <meta name="author" content="antony poure">
     <!-------font awesome-------->
-    <script src="https://kit.fontawesome.com/67eeb5a1dd.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/67eeb5a1dd.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Les écuries solidaires</title>
   </head>
+  <body>
+      <!---------navbar---------->
+        <main class="main-container">
+                <nav
+                    class="hdp navbar navbar-expand-lg navbar-light text-dark fs-4 sticky-top"
+                >
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"
+                        ><img
+                        src="images/silhouette-g05d87d714_640.png"
+                        height="80px"
+                        alt="logo de cavalière"
+                    /></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav fs-6 me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html"
+                            >Bienvenue</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="">Événements</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            >
+                            Menu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="animateurs.html"
+                                >Nos animateurs</a
+                                >
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="contact.html">Contacts</a>
+                            </li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li>
+                                <a class="dropdown-item" href="contact.html"
+                                >Vous souhaitez être contacté?</a
+                                >
+                            </li>
+                            </ul>
+                        </li>
+                        </ul>
+                        <form class="d-flex">
+                        <input
+                            class="form-control me-2 fs-6 text-center"
+                            type="search"
+                            placeholder=""
+                            aria-label="search"
+                        />
+                        <a
+                            class="btn btn-outline fs-6"
+                            href="https://www.google.com"
+                            role="button"
+                            >go</a
+                        >
+                        </form>
+                    </div>
+                    </div>
+                </nav>
+
+            <!-----------header---------------->
+            <header>
+            <div class="event-banner">
+                <div
+                    class="stage"
+                    style="
+                    background-image: url('images/michael-bourgault-LP3HD-bC39g-unsplash\ \(1\).jpg');
+                    height: 400px;
+                    background-size: cover;
+                    background-position: center;
+                    padding-bottom: 50px;
+                    "
+                >
+                    <h1
+                    id="cso"
+                    class="display-6 ms-lg-5 text-sm-center text-lg-start text-light"
+                    >
+                    NOS STAGES D'ÉTÉ DANS LE MONTANA!<br />Juillet /Aout 2021
+                    </h1>
+                </div>
+
+                 </div>
+                <nav class="ps-5 mt-2" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a class="text-decoration-none text-dark" href="index.html"
+                      >Bienvenue</a
+                    >
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">événements</li>
+                </ol>
+              </nav>
+            </header>
+        <div class=" p-3 text-center mb-4  text-light">
+            <h2>NOS ÉVÉNEMENTS</h2>
+        </div>
+        
+        <section class="slider">
+            <div class="container-fluid w-100">
+                <div class="row justify-content-center">
+                    <article class="col-12 col-lg-4 mt-3 mt-lg-5 me-lg-5">
+                        <h5 class="exchange text-center mt-2">
+                            NOS DIFFÉRENTS PROJETS.
+                        </h5>
+                        <div class="container text-justify mt-3">
+                            <p class="text-justify"> 
+                                Depuis 2019, nous avons montés différents projets, en <strong>Europe</strong>, et partout dans le monde. Sur le <strong>slider</strong>, vous avez un aperçu de nos différentes <em>destinations...</em>
+                            </p> 
+                            <p>Europe, Asie, Amérique du nord...</p>
+                            <p><strong>Alors, ca vous tente?</strong></p>
+                            
+                        </div>
+                    </article>                  
+        <!--------------carousel-------------->
+                    <div class="col-12 col-lg-5">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/mongolie.jpg" class="d-block w-100 p-2 bg-secondary rounded" alt="steppe mongole">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="text-slider">JUILLET 2020 LA MONGOLIE</h5>
+                                  <p class="text-slider">Nous avions passé 3 semaines incroyables dans des yourtes</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/argentine.jpg" class="d-block w-100 p-2 bg-secondary rounded" alt="paysage argentin">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="text-slider">AOUT 2021 LA PAMPA ARGENTINE</h5>
+                                  <p class="text-slider">Les participants ont vécus des moments inoubliables dans la pampa</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/toscane.jpg" class="d-block w-100 shadow p-2 bg-secondary rounded" alt="chevaux en toscane">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="text-slider">LA TOSCANE 2019</h5>
+                                  <p class="text-slider">Premier projet des écuries solidaires.<br>Au début nous avions moins de partenaires et de moyens, on a donc commencé par l'europe.. </p>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-----------------carte bootstrap------------------->
+        <section>
+            <article class="container-fluid w-100">
+               <div class="row g-3 mt-4 p-3">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="card h-100">
+                        <img
+                            src="images/montana-logo.png"
+                            class="card-img-top"
+                            alt="écusson du montana"
+                        />
+                        <div class="card-body align-items-lg-center">
+                            <h5 class="card-title text-center">LE MONTANA</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-calendar-event"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"
+                                />
+                                <path
+                                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
+                                />
+                            </svg>
+                            Départ le 10/07/22
+                            </li>
+                            <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-calendar-event"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"
+                                />
+                                <path
+                                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
+                                />
+                            </svg>
+                            Retour le 05/08/22
+                            </li>
+                            <li class="list-group-item">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-exclamation-triangle"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"
+                                />
+                                <path
+                                d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"
+                                />
+                            </svg>
+                            Pass vaccinal obligatoire
+                            </li>
+                        </ul>
+                        <div class="card-body">
+                            <a
+                            href="https://www.visitmt.com/listings/general/tourism-office/montana-office-of-tourism"
+                            class="card-link"
+                            >tourisme Montana</a
+                            >
+                            <a
+                            href="https://fr.wikipedia.org/wiki/Montana"
+                            class="card-link"
+                            >Wikipédia</a
+                            >
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/work.jpg" class="card-img-top" alt="jeunes travaillant dans un champ">
+                            <div class="card-body">
+                                <h5 class="text-center">LA TOSCANE</h5>
+                                <p class="text-justify">En devenant un cavalier solidaire, vous participerez au quotidien ( <i>soin des animaux, travaux de la ferme..</i>) des éleveurs, ou fermiers, qui vous recoivent.<br>En échange, vous profiterez des infrastructures, et du matériel d'équitation, et bien évidemment, des <strong>chevaux</strong></p>
+                                <p class="text-center"><i>"Photo prise en toscane durant notre premier voyage"</i></p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/contact.jpg" class="card-img-top" alt="filles face à un cheval">
+                            <br>
+                            <div class="card-body">
+                                <h5 class="text-center">PREMIERS CONTACTS</h5>
+                                <br>
+                                <p class="text-justify">Pour la majorité de nos participants, <strong>ces séjours sont la possibilité de sortir des quartiers</strong>, et de découvrir d'autres horizons.<br>Pour la plupart, ils reviennent avec le projet de continuer l'équitation, voir même d'embrasser une carrière agricole, ou équestre par le biais de nos <i><strong>formations en alternances.</strong></i></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </article>
+        </section>
+
+        <!------------boutton vers modal-------->
+
+        <div class="d-flex justify-content-center mt-3">
+            <button
+              type="button"
+              class="btn btn-primary border-secondary mt-3 rounded"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              envoyer mon dossier d'inscription.
+            </button>
+      
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Notre adresse</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="images/silhouette-g05d87d714_640.png"
+                      height="80px"
+                      width="80px"
+                      alt="logo-association"
+                    />
+                    <h4 class="display-6">Les écuries solidaires</h4>
+                    <p>
+                      Les bureaux de l'association se trouvent à Paris, au 32 rue
+                      Poliveau, paris 5ème
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Fermer
+                    </button>
+                      <a class="text-light" href="index.html">retour a l'acceuil</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!----------footer------------>
+        <footer class="bdp mt-5">
+            <div class="container-fluid mt-3">
+                <div class="row text-center g-0">
+                    <p><img src="images/social-media-g447e1367f_640.png" height="65px" width="130px" alt=""></p>
+                </div>
+                <div class="row text-center g-0">
+                    <div class="col-12 text-center">
+                        <p class="copyright">© Les écuries solidaires, 2021. Developpeur, Antony Poure</p>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+
+
+
+
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+  </body>
+</html>
