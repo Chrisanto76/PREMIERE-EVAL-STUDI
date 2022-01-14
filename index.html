@@ -27,14 +27,15 @@
         Nous mettons en place des voyages à prix réduits tous les étés"
     />
     <meta name="subject" content="association solidaire" />
-
+    <!-------font awesome-------->
+    <script src="https://kit.fontawesome.com/67eeb5a1dd.js" crossorigin="anonymous"></script>
     <title>Les écuries solidaires</title>
   </head>
   <body>
     <main class="main-container">
       <!--------NAVBAR-------->
         <nav
-            class="navbar navbar-expand-lg navbar-light bg-light fs-4 sticky-top"
+            class="hdp navbar navbar-expand-lg navbar-light text-dark fs-4 sticky-top"
         >
             <div class="container-fluid">
             <a class="navbar-brand" href="#"
@@ -119,11 +120,11 @@
                     background-image: url(images/cso.jpg);
                     height: 500px;
                     background-size: cover;
-                    background-position: center;
+                    background-position: start;
                     "
                 >
                     <h1 id="cso"
-                    class="display-5 ms-lg-5 tesxt-sm-center text-lg-start"
+                    class="display-5 ms-lg-5 text-sm-center text-lg-start"
                     >
                         LES ÉCURIES SOLIDAIRES
                     </h1>
@@ -143,7 +144,7 @@
                 </div>
                 <div class="d-flex justify-content-center mt-3">
                         <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Contenu désactivé actuellement">
-                            Plus d'informations?
+                            Plus d'informations ?
                         </button>
                 </div>
             </div>
@@ -153,9 +154,9 @@
             <div class="container mt-4 mt-lg-5 justify-content-md-center">
                 <div class="row align-items-lg-center justify-content-lg-envenly g-0">
                     <article class="col-12 col-lg-6 me-lg-5 justify-content-center">
-                        <img class="img-fluid shadow rounded p-2 ms-md-4 bg-light" src="images/brosse.jpg" alt="filles qui brossent un cheval">
+                        <img class="img-fluid shadow rounded p-3 ms-md-4 bg-body border-secondary" src="images/brosse.jpg" alt="filles qui brossent un cheval">
                     </article>
-                    <article class="col-12 col-lg-5 mt-3 mt-lg-0">
+                    <article class="col-12 col-lg-4 mt-3 mt-lg- ms-lg-5">
                         <h5 class="exchange text-center mt-2">
                             L'ÉCHANGE.
                         </h5>
@@ -177,17 +178,19 @@
 
         <!-----cartes bootstrap------>
 
-        <div class="container-fluid">
+        <div class="container-fluid w-100">
             <div class="row g-3 mt-5 text-secondary text-center">
                 <div class="col-md-6 col-lg-4">
-                    <div class="card h-100">
+                    <div class="card h-100 border-secondary">
                     <img
-                        src="images/grange.jpg"
+                        src="images/montana-logo.png"
                         class="card-img-top"
                         alt="écusson du montana"
                     />
-                    <div class="card-body">
+                    <div class="card-body align-items-lg-center">
                         <h5 class="card-title text-center">LE MONTANA</h5>
+                        <p class="card-text text-center">Notre prochaine destination</p>
+                        <p class="card-text text-center">Notre prochaine destination</p>
                         <p class="card-text text-center">Notre prochaine destination</p>
                     </div>
                     <ul class="list-group list-group-flush">
@@ -261,7 +264,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="card h-100">
+                    <div class="card h-100 border-secondary">
                         <img
                             src="images/coco.jpg"
                             class="card-img-top"
@@ -275,21 +278,28 @@
                             <br/>
                             Cette année le montana! 
                             <br>
-                                <div>
+                            <h4>Exemples des activités</h4>
+                                <i>Saut d'obstacles</i>
+                                <br>
+                                <i>Randonnées</i>
+                                <br>
+                                <i>Éthologie</i>
+                             <div>
+                                 <br>
                                     <b>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
                                             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
                                         </svg> 
                                     Départ en juillet 2021.</b>
-                                </div>
+                            </div>
                             </p>
                             <a class="btn btn-primary" href="https://www.americanairlines.fr/intl/fr/index.jsp?locale=fr_FR" role="button">reserver un vol</a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-md-6 col-lg-4">
-                    <div class="card text-center h-100">
+                <div class="col-md-12 col-lg-4 ">
+                    <div class="card text-center h-100 border-secondary">
                         <img
                             src="images/farm.jpg"
                             class="card-img-top"
@@ -305,12 +315,26 @@
                             échange, vous serez logés, et vous partagerez leurs table à
                             chaque repas.
                             </p>
+                            <h4>commentaires.</h4>
+                            <p><em>"j'ai passé un mois super dans la famille Ingalls,<br>des personnes trop sympas, et chaleureuses.<br>Je l</em></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+        <footer class="bdp mt-5">
+            <div class="container-fluid mt-3">
+                <div class="row text-center g-0">
+                    <p><img src="images/social-media-g447e1367f_640.png" height="80px" width="150px" alt=""></p>
+                </div>
+                <div class="row text-center g-0">
+                    <div class="col-12 text-center">
+                        <p class="copyright">© Les écuries solidaires, 2021. Developpeur, Antony Poure</p>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
 
 
     </main>
