@@ -10,3 +10,4 @@ Allow: /index
 Allow: /événements
 Allow: /animateurs
 
+sitemap: https://https://chrisanto76.github.io/sitemap.xml
