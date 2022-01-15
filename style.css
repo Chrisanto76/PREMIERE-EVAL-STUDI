@@ -27,7 +27,9 @@ h5 {
     font-size: 2rem;
 }
 
-/* POSITIONNEMENT DU TITRE PRINCIPALE DE L'INDEX */
+
+
+/* POSITIONNEMENT DU TITRE PRINCIPALE DE L'INDEX , CONTACTS, EVENEMENTS*/
 
 #cso {
   position: relative;
@@ -36,7 +38,18 @@ h5 {
   top: 70%;
 }
 
-/* création de la justification du texte */
+/* image de fond de la page animateurs.html */
+
+/* .team {
+    background-image: url(images/grange.jpg);
+    background-position: center;
+    background-size: cover;
+} */
+
+
+
+
+/* création de la justification du texte des paragraphes */
 
 .text-justify {
   text-align: justify;
