@@ -1,0 +1,12 @@
+User-agent:*
+
+#Dossiers
+Disallow: /images/
+
+#Pages
+Disallow: /contact
+
+Allow: /index
+Allow: /événements
+Allow: /animateurs
+
